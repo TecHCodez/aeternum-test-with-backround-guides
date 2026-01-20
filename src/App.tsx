@@ -1,9 +1,10 @@
 
 export default function App() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <h1>✅ GitHub Pages Working</h1>
-      <p>Your Vite + React app is correctly configured for GitHub Pages.</p>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <h1 className="text-3xl font-bold text-green-600">
+        ✅ Tailwind + GitHub Pages Fixed
+      </h1>
     </div>
   )
 }
